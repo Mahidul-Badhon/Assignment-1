@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* navigation section design */
+header{
+    background-color: #FFFFFF;
+}
+.nav-parent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+.nav-menu ul{
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+
+}
+.nav-menu ul li{
+    display: inline;
+    font-size: 16px;
+    color: #575757;
+    font-family: 'Arimo', 'Times New Roman';
+    margin: 20px 16px;
+    
+}
+.register-btn{
+    width: 192px;
+    height: 56px;
+    color: #FFFFFF;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 6px;;
+}
+
+
+/* hero section design */
+.hero-banner{
+    background-image: url('../images/banner.jpg');
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 20px;
+}
+.hero-banner h1{
+    font-size: 80px;
+    font-family: 'Inter', 'Times New Roman';
+}
+
