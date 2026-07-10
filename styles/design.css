@@ -124,3 +124,95 @@ header{
     font-size: 20px;
     color: #0D1B2A
 }
+
+/* offer sectin design */
+.offer-parent{
+    text-align: center;
+    font-family: 'Inter', 'Times New Roman';
+    
+}
+.offer-parent h3{
+    font-size: 40px;
+    color: #0D1B2A;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.offer-parent p{
+    margin-bottom: 20px;
+}
+.offer-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1100px;
+    margin: auto;
+}
+.card{
+    border: 1px solid rgb(215, 214, 214);
+    border-radius: 6px;
+    /* width: 320px; */
+    /* height: 444px; */
+    text-align: left;
+    margin: 10px;
+    padding: 40px;
+  
+}
+.offer-pro p, li{
+    font-size: 13px;
+    color: white;
+    
+}
+.offer-standard p, li{
+    font-size: 13px;
+    color: #888888;
+}
+.offer-team p,li{
+    font-size: 13px;
+    color: #888888;
+}
+.offer-pro{
+    background-color: #0D1B2A;
+    color: white;
+}
+.offer-pro h4{
+    font-size: 35px;
+}
+.offer-standard h4{
+    font-size: 35px;
+}
+
+.offer-team h4{
+    font-size: 35px;
+}
+.offer-team button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #0D1B2A;
+    border-radius: 6px;
+    background-color: white;
+}
+.offer-standard button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 12px;
+    border: 1px solid #2563EB;
+    border-radius: 6px;
+    color: #2563EB;
+    background-color: white;
+}
+.offer-pro button{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    background-color: #2563EB;
+}
+
+
