@@ -1,6 +1,7 @@
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .container{
     max-width: 1200px;
@@ -42,8 +43,9 @@ header{
 
 
 /* hero section design */
+
 .hero-banner{
-    background-image: url('../images/banner.jpg');
+    background-image: linear-gradient(to right,rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url('../images/banner.jpg');
     background-repeat: no-repeat;
     
     background-position: center;
@@ -154,7 +156,6 @@ header{
     /* width: 320px; */
     /* height: 444px; */
     text-align: left;
-    margin: 10px;
     padding: 40px;
   
 }
@@ -239,7 +240,7 @@ header{
     margin-bottom: 10px;
 }
 #not-special{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 #special{
     color:#733AF0;
@@ -257,6 +258,9 @@ header{
     border-radius: 6px;
     color: white;
     background-color: #733AF0;
+}
+.skill-check img{
+    width: 30px;
 }
 
 .skill-newsletter {
@@ -311,4 +315,38 @@ header{
     border-radius: 6px;
     cursor: pointer;
 
+}
+
+/* footer section design */
+footer{
+    background-color: #0D1B2A;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+    padding: 30px;
+}
+.left-foot img, .left-foot p{
+    display: inline;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    
+}
+.left-foot img{
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.left-foot p{
+    margin-left: 15px;
+    vertical-align: middle;
+    font-family: 'Inter', 'Times New Roman';
+}
+.right-foot p{
+    display: inline-block;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 20px;
+    font-family: 'Inter', 'Times New Roman';
 }
