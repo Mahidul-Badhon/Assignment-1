@@ -47,15 +47,80 @@ header{
     background-repeat: no-repeat;
     
     background-position: center;
-    height: 600px;
+    max-height: 700px;
     width: 100%;
     background-size: cover;
     color: #FFFFFF;
     text-align: center;
-    padding: 0 20px;
+    padding: 60px 20px;
+    /* background-color: hsla(0, 0%, 24%, 0.325); */
 }
 .hero-banner h1{
     font-size: 80px;
     font-family: 'Inter', 'Times New Roman';
 }
+.hero-banner p{
+    font-size: 22px;
+    font-family: 'Inter', 'Times New Roman';
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.hero-banner .register-btn{
+    margin-top: 150px;
+}
 
+
+/* specker section design */
+.speaker-container{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Inter', 'Times New Roman';
+    margin-top: 50px;
+    padding: 10px;;
+}
+.speaker-container h3 {
+    margin-bottom: 40px;
+}
+.speaker-parent{
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-rows: repeat(2, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    max-width: 1100px;
+    margin: auto;
+    
+}
+.image {
+    width: 100%;
+    text-align: left;
+    border: 1px solid rgb(204, 201, 201);
+    border-radius: 6px;;
+}
+.image img {
+    width: 100%;
+    height: 300px;     
+    object-fit: cover; 
+    display: block;
+    margin-bottom: 12px;
+}
+.speaker p,h6{
+    margin: 15px;
+}
+.speaker p{
+    font-family: 'Inter', 'Times New Roman';
+    font-size: 14px;
+    color: #575757
+}
+.speaker .title{
+    font-family: 'Inter', 'Times New Roman';
+    font-size: 12px;
+    color: #2563EB;
+}
+.speaker h6{
+    font-family: 'Inter', 'Times New Roman';
+    font-size: 20px;
+    color: #0D1B2A
+}
