@@ -38,7 +38,8 @@ header{
     color: #FFFFFF;
     background-color: #1D4ED8;
     border: none;
-    border-radius: 6px;;
+    border-radius: 6px;
+    cursor: pointer;
 }
 
 
@@ -194,6 +195,7 @@ header{
     border: 1px solid #0D1B2A;
     border-radius: 6px;
     background-color: white;
+    cursor: pointer;
 }
 .offer-standard button{
     width: 200px;
@@ -204,6 +206,7 @@ header{
     border-radius: 6px;
     color: #2563EB;
     background-color: white;
+    cursor: pointer;
 }
 .offer-pro button{
     width: 200px;
@@ -214,6 +217,7 @@ header{
     border-radius: 6px;
     color: white;
     background-color: #2563EB;
+    cursor: pointer;
 }
 .skill-check-parent{
     display: flex;
@@ -258,6 +262,7 @@ header{
     border-radius: 6px;
     color: white;
     background-color: #733AF0;
+    cursor: pointer;
 }
 .skill-check img{
     width: 30px;
